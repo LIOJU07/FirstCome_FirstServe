@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Reservation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hotel Reservation</h1>
+    <form id="reservationForm">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="number" id="room" placeholder="Room Number (1–10)" required min="1" max="10" />
+      <button type="submit">Reserve</button>
+    </form>
+
+    <h2>Reservations</h2>
+    <ul id="reservationList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
